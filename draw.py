@@ -19,6 +19,7 @@ screen = Screen()
 
 yertle = Turtle('turtle')
 yertle.speed('fastest')
+yertle.width(50)
 
 yertle.ondrag(dragging)
 
